@@ -3,7 +3,7 @@
 	<groupId>com.khubla.antlrparseexample</groupId>
 	<artifactId>antlrparseexample</artifactId>
 	<packaging>jar</packaging>
-	<name>khubla.com HTML parser</name>
+	<name>khubla.com Antlr4 Example</name>
 	<version>1.0</version>
 	<properties>
 		<antlr.version>4.2.2</antlr.version>
