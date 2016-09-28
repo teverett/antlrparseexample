@@ -1,4 +1,4 @@
-package com.khubla.scalaparser;
+package com.khubla.antlrparseexample;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,7 +9,7 @@ import org.antlr.v4.runtime.ParserRuleContext;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.khubla.scalaparser.ScalaDocumentParser;
+import com.khubla.antlrparseexample.DocumentParser;
 
 /**
  * @author tom
@@ -47,7 +47,7 @@ public class TestTreeWalk {
     * parse
     */
    protected ParserRuleContext parse(File file) throws Exception {
-      return ScalaDocumentParser.parse(new FileInputStream(file));
+      return DocumentParser.parse(new FileInputStream(file));
    }
 
    @Test

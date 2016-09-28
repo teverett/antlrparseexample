@@ -1,4 +1,4 @@
-package com.khubla.scalaparser.main;
+package com.khubla.antlrparseexample.main;
 
 import java.io.InputStream;
 
@@ -7,7 +7,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
-import com.khubla.scalaparser.ScalaDocumentParser;
+import com.khubla.antlrparseexample.DocumentParser;
 
 /**
  * @author tom
@@ -26,7 +26,7 @@ public class Main {
       try {
          inputStream = response.getEntity().getContent();
          System.out.println("Parsing " + url);
-         ScalaDocumentParser.parse(inputStream);
+         DocumentParser.parse(inputStream);
       } finally {
          response.close();
       }
