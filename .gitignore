@@ -11,3 +11,4 @@ source/cerebussvr/fskvdata
 source/publisher/tomcat.8080
 source/publisher/testdata
 example/fskvdata
+/dependency-reduced-pom.xml
